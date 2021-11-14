@@ -11,14 +11,6 @@
 .breadcrumbs-section{
     background-color: rgb(34, 32, 32);
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 550rem !important;
-    font-weight: 100px;
-}
-.border{
-    border-right: 3px solid white;
+#vid{  
+    background-position: center;    
 }
