@@ -1,0 +1,14 @@
+.bg-img{
+    background-image: url("../img/pexels-dmitry-demidov-3783471.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.address p{
+    font-weight: 600;
+    font-style: italic;
+}
+.breadcrumbs-section{
+    background-color: rgb(34, 32, 32);
+    
+}
