@@ -19,38 +19,51 @@
 
 <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="container">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">
-            <img src="img/music d.jpg" width="150" alt="">
-        </a>
+<!-- Navbar section  -->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark Brand fixed-top" style="border-spacing: 0%;">
+      <div class="container-fluid"> 
+         
+          <!-- Brand -->
+
+          <a class="navbar-brand" href="index.html">
+              <img src="img/music d.jpg" alt="" width="70" style="border-radius: 50px;">
+          </a>
       
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mrnathaniel">
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
       
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="mrnathaniel">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#"> About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Benefits </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-    </nav>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                  <a class="nav-link"  style="font-size: 15px;" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link"  style="font-size: 15px;" href="about.html">About us</a>
+                  </li>
+                   <!-- Dropdown -->
+                   <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="service.html"  style="font-size:15px;" id="navbardrop" data-toggle="dropdown">
+                      Our Services
+                      </a>
+                      <div class="dropdown-menu">
+                      <a class="dropdown-item" href="service.html">Music Video Shoot</a>
+                      <a class="dropdown-item" href="service.html">Video An Studio Editting</a>
+                      <a class="dropdown-item" href="service.html">Music Records Label</a>
+                      <a class="dropdown-item" href="service.html">Music Sponsorship</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link"  style="font-size: 15px;" href="contact.html">Contact Us</a>
+                  </li>
+                  
+              </ul>  
+          </div>
+      </div>
+ </nav> <br> <br> <br>
 
     <!-- Banner -->
     <div class="container-fluid">
@@ -121,7 +134,31 @@
                 <div class="row border border-dark">
                     <div class="col-md-12"></div>
                 </div>
-            </div>
+            </div> <br> <br>
+            
+            <!-- Footer  -->
+                     
+<div class="container-fluid bg-dark text-white py-4  border">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>
+                SUBSCRIBE FOR NEW MUSIC UPDATES
+            </h2> <br> <br>
+            <input type="text" placeholder="Enter email address" class="float-center"> <br> <br>
+             <a href="#"> <button type="button" class="btn btn-light float-center"> SUBSCRIBE NOW</button>   </a> <br> <br> 
+        </div>
+        <div class="col-md-6">
+            <h2>
+               CONTACT US
+            </h2> <br> <br>
+            <div class="text-left"><a href="tel: +234 901 739 4719"> <i class="fa fa-phone-square"></i> +2349017394719 </a></div> <br> <br>
+            <div class="text-left"><a href=""> <i class="fa fa-envelope-square"></i> recruitment@swebscareers.com </a></div> <br>
+
+        </div>
+    
+    </div>
+</div>
+
 
 
 
